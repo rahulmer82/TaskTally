@@ -7,7 +7,7 @@ function MtUpdate(props) {
     const [MtNote,setMtNote]=useState(mydata)
     //fetch data
     const GetMtNotes= async()=>{
-        let data= await fetch(`http://localhost:5000/api/mt/mytrip`,{
+        let data= await fetch(`https://tasktally-server.onrender.com/api/mt/mytrip`,{
             method:'GET',
             headers:{
                 'Content-Type': 'application/json',
@@ -21,7 +21,7 @@ function MtUpdate(props) {
     // Add Data to help This Api
 
     const MtAddNote=async(member,monney,message)=>{
-const responce=await fetch(`http://localhost:5000/api/mt/addinfo`,{
+const responce=await fetch(`https://tasktally-server.onrender.com/api/mt/addinfo`,{
     method:'POST',
     headers:{
         'Content-type':'Application/json',
@@ -36,7 +36,7 @@ setMtNote(MtNote.concat(json))
     // edit note using api calls;
 
     const MtEditNote=async (id,member,date,monney,message)=>{
-const responce=await fetch(`http://localhost:5000/api/mt/mtupdate/${id}`,{
+const responce=await fetch(`https://tasktally-server.onrender.com/api/mt/mtupdate/${id}`,{
     method:'PUT',
     headers:{
         'Content-type':'Application/json',
@@ -64,7 +64,7 @@ setMtNote(newNotes)
 
   // Delete Notes using API calls;
   const MtDeleteNote=async(id)=>{
-const response=await fetch(`http://localhost:5000/api/mt/mtdelete/${id}`,{
+const response=await fetch(`https://tasktally-server.onrender.com/api/mt/mtdelete/${id}`,{
     method:'DELETE',
     headers:{
         'Content-type':'Application/json',
@@ -77,7 +77,7 @@ setMtNote(Newnote)
   }
   
   const UserDelete= async (id)=>{
-    const responce= await fetch(`http://localhost:5000/api/mt/mtuserdelete/${id}`,{
+    const responce= await fetch(`https://tasktally-server.onrender.com/api/mt/mtuserdelete/${id}`,{
       method:'DELETE',
       headers:{
         'Content-type':'Application/json',

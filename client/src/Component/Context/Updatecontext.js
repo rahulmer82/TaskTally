@@ -7,7 +7,7 @@ const Newdata=(props)=>{
     const [Note,setNote]=useState(mydata)
     //fetch data
     const Getnotes= async()=>{
-        let data= await fetch(`http://localhost:5000/api/data/mydata`,{
+        let data= await fetch(`https://tasktally-server.onrender.com/api/data/mydata`,{
             method:'GET',
             headers:{
                 'Content-Type': 'application/json',
@@ -21,7 +21,7 @@ const Newdata=(props)=>{
     // Add Data to help This Api
 
     const AddNote=async(price,work)=>{
-const responce=await fetch(`http://localhost:5000/api/data/addwork`,{
+const responce=await fetch(`https://tasktally-server.onrender.com/api/data/addwork`,{
     method:'POST',
     headers:{
         'Content-type':'Application/json',
@@ -36,7 +36,7 @@ setNote(Note.concat(json))
     // edit note using api calls;
 
     const EditNote=async (id,price,date,work,dailywork)=>{
-const responce=await fetch(`http://localhost:5000/api/data/update/${id}`,{
+const responce=await fetch(`https://tasktally-server.onrender.com/api/data/update/${id}`,{
     method:'PUT',
     headers:{
         'Content-type':'Application/json',
@@ -64,7 +64,7 @@ setNote(newNotes)
 
   // Delete Notes using API calls;
   const DeleteNote=async(id)=>{
-const response=await fetch(`http://localhost:5000/api/data/delete/${id}`,{
+const response=await fetch(`https://tasktally-server.onrender.com/api/data/delete/${id}`,{
     method:'DELETE',
     headers:{
         'Content-type':'Application/json',
