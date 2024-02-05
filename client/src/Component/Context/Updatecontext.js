@@ -3,7 +3,7 @@ import mycontext from "./Createcontext";
 
 const Newdata=(props)=>{
     const mydata=[]
-    const host=`http://localhost:5000/`
+    const host=`https://tasktally-server.onrender.com/`
     // main state this to update Clint data;
     const [Note,setNote]=useState(mydata)
     //fetch data

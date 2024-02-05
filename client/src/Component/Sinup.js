@@ -14,7 +14,7 @@ const {Checkalert}=useContext(Alertcontext)
   // logic to submit data and call the api;
   const hendlesubmit=async(e)=>{
     e.preventDefault()
-const responce=await fetch(`http://localhost:5000/api/auth/createuser`,{
+const responce=await fetch(`https://tasktally-server.onrender.com/api/auth/createuser`,{
   method:'POST',
   headers:{
     'Content-type':"Application/json"

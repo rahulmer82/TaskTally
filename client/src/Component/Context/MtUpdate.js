@@ -3,7 +3,7 @@ import MtContext from './Mtcontext'
 import { useState } from 'react'
 function MtUpdate(props) {
     const mydata=[]
-    const host=`http://localhost:5000/`
+    const host=`https://tasktally-server.onrender.com/`
     // main state this to update Clint data;
     const [MtNote,setMtNote]=useState(mydata)
     //fetch data

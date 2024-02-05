@@ -5,7 +5,7 @@ require("dotenv").config();
 
 connectToMongo();
 const corsOptions = {
-  origin: "http://localhost:3000" // frontend URI (ReactJS)
+  origin: "https://tasktally.onrender.com" // frontend URI (ReactJS)
 }
 const app = express()
 const port = process.env.PORT || 5000
