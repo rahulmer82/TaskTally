@@ -39,7 +39,6 @@ const hendleLogout=()=>{
   <div class="dropdown-content">
     <Link to="/"><i class="fa-solid fa-house mx-3"></i>Home</Link>
     <Link to="/mydata"><i class="fa-solid fa-calendar-days mx-3"></i>Report</Link>
-    <Link to="/mytrip"><i class="fa-solid fa-suitcase-rolling mx-3"></i>MyTrip</Link>
     <Link to="/login" onClick={hendleLogout}><i class="fa-solid fa-power-off mx-3"></i>Logout</Link>
   </div>
 </div>}

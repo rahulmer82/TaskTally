@@ -168,7 +168,7 @@ body {
 
 /* toggle CSS */
 .dropbtn {
-  background-color: #24282b;
+  background-color: transparent;
   color: white;
   padding: 16px;
   font-size: x-large;
