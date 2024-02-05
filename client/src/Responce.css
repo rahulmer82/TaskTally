@@ -1,0 +1,186 @@
+@media only screen and (max-width: 400px) {
+    .mynav .logo {
+        width: 20px;
+        height: 32px;
+        right: 5%;
+
+    }
+
+    .mynav .heding h1 {
+        font-size: 20px;
+        text-shadow: 0 0 2px rgb(242, 242, 250);
+    }
+
+    .navbtn {
+        width: fit-content;
+        height: 2.2rem;
+        margin: 0;
+    }
+
+    .monneybox h3 {
+        font-size: 1.1rem !important;
+        margin-top: 0.2rem !important;
+        right: 40% !important;
+
+
+    }
+
+    .dropbtn {
+        height: 10px !important;
+    }
+
+    .monneybox img {
+        width: 50% !important;
+        height: 80% !important;
+        margin-top: 5px !important;
+    }
+
+    .bar {
+        height: 0.5rem !important;
+    }
+
+    .block {
+        display: flex
+    }
+}
+
+@media only screen and(max-width:370px) {
+    .inputbox .Selectlable {
+        font-size: small !important;
+    }
+}
+
+@media only screen and (max-width:318px) {
+    .mynav .logo {
+        width: 20px;
+        height: 25px;
+    }
+
+    .mynav .heding h1 {
+        font-size: 20px;
+        text-shadow: 0 0 2px rgb(242, 242, 250);
+    }
+
+    .navbtn {
+        width: fit-content;
+        height: 1.8rem;
+        margin: 0;
+        font-size: small;
+
+    }
+
+    .monneybox img {
+        width: 35% !important;
+        height: 60% !important;
+        margin-top: 5px !important;
+
+    }
+
+    .monneybox h3 {
+        font-size: 1rem !important;
+        right: 50% !important;
+    }
+
+    .newcard span {
+        font-size: 11px !important;
+    }
+
+    .newcard img {
+        height: 1.5rem !important;
+        width: 1.2rem !important;
+    }
+
+
+
+}
+
+@media only screen and (max-width:561px) {
+    .heding h1 {
+        font-size: 28px;
+        position: relative;
+        bottom: 25%;
+    }
+
+    .mynav .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .monneybox {
+        margin: 0;
+        height: 3rem;
+        width: 20%;
+        margin-left: 15%;
+    }
+
+    .monneybox h3 {
+        font-size: 1.5rem;
+        margin: 0;
+        right: 20%;
+        position: relative;
+    }
+
+    .monneybox img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .dropbtn {
+        height: 3rem;
+    }
+
+    .bar {
+        height: 1rem !important;
+
+
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .monneybox {
+        margin: 0;
+        height: 2.4rem;
+        width: 22%;
+        margin-left: 19%;
+    }
+
+    .monneybox h3 {
+        font-size: 1.3rem;
+        margin-top: 0.3rem !important;
+        right: 22%;
+        position: relative;
+    }
+
+    .heding h1 {
+        font-size: 24px;
+    }
+
+    .mynav .logo {
+        position: relative;
+        bottom: 15%;
+    }
+
+    .newcard span {
+        font-size: 15px;
+    }
+
+    .newcard img {
+        height: 2rem !important;
+        width: 1.9rem;
+        position: relative;
+
+
+    }
+}
+
+@media only screen and (max-width:453px) {
+    .newcard span {
+        font-size: 13px;
+    }
+
+    .newcard img {
+        height: 1.5rem !important;
+        width: 1.6rem;
+    }
+}
